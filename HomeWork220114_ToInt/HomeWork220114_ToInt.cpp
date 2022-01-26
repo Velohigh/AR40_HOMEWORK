@@ -21,7 +21,6 @@ int ToInt(const char* _Text)
 {
 
 	int Temp = 0;
-	int Value = 1;
 	int Mulcount = 0;
 	int StringLength = StringLen(_Text);
 
