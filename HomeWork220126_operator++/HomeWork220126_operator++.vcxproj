@@ -24,6 +24,7 @@
     <ProjectGuid>{b5a3256b-3603-42a0-a72e-2d59040f0333}</ProjectGuid>
     <RootNamespace>HomeWork220126operator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>HW_220126_operator++</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

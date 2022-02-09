@@ -24,7 +24,7 @@
     <ProjectGuid>{82ce6644-32a8-4bcc-bfdd-f6a21410db61}</ProjectGuid>
     <RootNamespace>HomeWork220114</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>HomeWork220114_ToUpper</ProjectName>
+    <ProjectName>HW_220116_ToUpper</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
