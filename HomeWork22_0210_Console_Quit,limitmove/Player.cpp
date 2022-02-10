@@ -55,6 +55,6 @@ int Player::Update()
 		break;
 	}
 	
-
+	return 0;
 }
 

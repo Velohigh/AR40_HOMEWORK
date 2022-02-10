@@ -2,9 +2,9 @@
 //
 
 #include <iostream>
-#include "TextScreen.h"
-#include "Player.h"
-#include "Monster.h"
+//#include "TextScreen.h"
+//#include "Player.h"
+//#include "Monster.h"
 #include <crtdbg.h>
 #include "ConsoleGlobalInst.h"
 
