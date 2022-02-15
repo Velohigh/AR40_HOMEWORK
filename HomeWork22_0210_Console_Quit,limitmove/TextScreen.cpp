@@ -12,9 +12,10 @@ TextScreen::TextScreen(int _Width, int _Height, const char* _DefaultValue)
 
 TextScreen::~TextScreen() 
 {
+
 	for (int i = 0; i < Size_.y_; i++)
 	{
-		if (nullptr != PixelData_)
+		if (nullptr != PixelData_[i])
 		{
 			delete[] PixelData_[i];
 			PixelData_[i] = nullptr;
@@ -30,6 +31,7 @@ TextScreen::~TextScreen()
 
 void TextScreen::CreateScreen(int _Width, int _Height, const char* _DefaultValue)
 {
+
 	Size_.x_ = _Width;
 	Size_.y_ = _Height;
 

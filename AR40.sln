@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW_220209_ConsoleScreen", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW_220210_console_quit,limitmove", "HomeWork22_0210_Console_Quit,limitmove\ConsoleScreen2.vcxproj", "{72097A35-7D13-4E8F-9608-A8616D0F26E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW_220215_Array_Resize", "HW_220215_Array_Resize\HW_220215_Array_Resize.vcxproj", "{2CE43914-C3E3-408C-89BD-C40A1229034F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -83,6 +85,14 @@ Global
 		{72097A35-7D13-4E8F-9608-A8616D0F26E8}.Release|x64.Build.0 = Release|x64
 		{72097A35-7D13-4E8F-9608-A8616D0F26E8}.Release|x86.ActiveCfg = Release|Win32
 		{72097A35-7D13-4E8F-9608-A8616D0F26E8}.Release|x86.Build.0 = Release|Win32
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Debug|x64.ActiveCfg = Debug|x64
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Debug|x64.Build.0 = Debug|x64
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Debug|x86.ActiveCfg = Debug|Win32
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Debug|x86.Build.0 = Debug|Win32
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Release|x64.ActiveCfg = Release|x64
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Release|x64.Build.0 = Release|x64
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Release|x86.ActiveCfg = Release|Win32
+		{2CE43914-C3E3-408C-89BD-C40A1229034F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +105,7 @@ Global
 		{B5A3256B-3603-42A0-A72E-2D59040F0333} = {58721CBB-1907-48ED-8463-DADD2D703469}
 		{958B682C-8D66-4E32-903C-B9F8A3014EFB} = {58721CBB-1907-48ED-8463-DADD2D703469}
 		{72097A35-7D13-4E8F-9608-A8616D0F26E8} = {58721CBB-1907-48ED-8463-DADD2D703469}
+		{2CE43914-C3E3-408C-89BD-C40A1229034F} = {58721CBB-1907-48ED-8463-DADD2D703469}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {809CE447-60D1-46D8-8D2D-81E9EEEBDDEF}

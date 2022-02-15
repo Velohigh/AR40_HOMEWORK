@@ -4,7 +4,7 @@ ConsoleObject::ConsoleObject(
 	TextScreen* _Screen,
 	const char* _Text,
 	const ConsoleVector& _Pos
-	)
+)
 	: Screen_(_Screen)
 	, Pos_(_Pos)
 {
