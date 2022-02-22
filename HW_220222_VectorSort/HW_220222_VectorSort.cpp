@@ -7,6 +7,8 @@
 #include <map>
 #include "GameVectorsort.h"
 
+using namespace std;
+
 GameVector<int> ReturnVector()
 {
     GameVector<int> NewArr;
@@ -70,6 +72,17 @@ int main()
         MyVector.push_back(2);
         MyVector.push_back(8);
         MyVector.push_back(99);
+        MyVector.sort(MyVector);
+
+        for (size_t i = 0; i < MyVector.size(); i++)
+        {
+            cout << MyVector[i] << endl;
+        }
+
+        cout << MyVector.size() << endl;
+        cout << MyVector.capacity() << endl;
+
+        int a = 0;
 
     }
 

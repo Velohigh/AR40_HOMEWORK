@@ -118,6 +118,9 @@ private:
     size_t Size_;
 
 public:
+
+
+    
     size_t capacity()
     {
         return ArrData_.GetCapacity();
@@ -189,6 +192,23 @@ private:
     size_t Size_;
 
 public:
+
+    void sort(GameVectorSort& _Value)
+    {
+        for (size_t i = 0; i < _Value.Size_; ++i)
+        {
+            for (size_t j = 0; j < (_Value.Size_ - 1) - i; ++j)
+            {
+                if (_Value.ArrData_[j] > _Value.ArrData_[j + 1])
+                {
+                    DataType Temp = _Value.ArrData_[j];
+                    _Value.ArrData_[j] = _Value.ArrData_[j + 1];
+                    _Value.ArrData_[j + 1] = Temp;
+                }
+            }
+        }
+    }
+
     size_t capacity()
     {
         return ArrData_.GetCapacity();
