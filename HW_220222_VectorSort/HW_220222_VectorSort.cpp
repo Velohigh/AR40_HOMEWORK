@@ -72,7 +72,7 @@ int main()
         MyVector.push_back(2);
         MyVector.push_back(8);
         MyVector.push_back(99);
-        MyVector.sort(MyVector);
+        //MyVector.sort(MyVector);
 
         for (size_t i = 0; i < MyVector.size(); i++)
         {

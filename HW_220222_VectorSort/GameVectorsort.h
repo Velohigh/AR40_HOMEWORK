@@ -247,6 +247,9 @@ public:
 
         ArrData_[Size_] = _Data;
         ++Size_;
+
+        sort(*this);
+
     }
 
     DataType& operator[](const size_t _Index)
